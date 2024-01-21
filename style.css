@@ -1,0 +1,129 @@
+body {
+    background-color:#286535;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Luminari', sans-serif;
+    color: #000000;
+    overflow-y: scroll;
+}
+.logo {
+    width: 70px; /* Sesuaikan lebar logo sesuai kebutuhan */
+    height: auto; /* Untuk menjaga proporsi aspek */
+    margin-right: 2px; /* Memberi jarak antara logo dan teks */
+    vertical-align: middle;
+    box-shadow: #000000 /* efek bayangan */
+}    
+.container {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.header {
+    margin-bottom: 20px;
+
+}
+.header h1 {
+    color: #ffffff; /* Warna teks h1 */
+    text-shadow: 2px 2px 2px #000000; /* Efek stroke dengan warna hitam */
+}
+.header a {
+    color: #ffffff; /* Warna teks link */
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #27ae60; /* Warna teks link saat dihover */
+}
+.header .by-text {
+    color: #ffffff; /* Warna teks untuk "By" */
+}
+.upload-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    background-color: #15b056;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #05aa2c;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+}
+.card img {
+    width: 100%; /* Lebar gambar akan menyesuaikan dengan lebar elemen .card */
+    height: 100%; /* Tinggi gambar akan menyesuaikan dengan tinggi elemen .card */
+    object-fit: cover; /* Menjaga aspek rasio dan mengisi seluruh area .card */
+    border-radius: 8px; /* Untuk memberikan sudut melengkung pada gambar */
+}
+
+
+.card:hover {
+    border-color: #065527;
+}
+
+/* ... CSS lainnya ... */
+
+.feature-btn-container {
+    display: flex;
+    flex-wrap: wrap; /* Menyusun tombol fitur dalam baris baru jika tidak cukup lebar */
+    justify-content: center; /* Memusatkan tombol secara horizontal */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.feature-btn {
+    background-color: #15b056;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px; /* Jarak antar tombol */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.feature-btn:hover {
+    background-color: #1f8248; /* Warna sesudah mengklik tombol jenis tanaman */
+}
+
+.feature-text {
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #15b056;
+    border-radius: 5px;
+    background-color: #eaf7ea;
+}
+
+.feature-text p {
+    margin-bottom: 10px;
+    color: #000000;
+}
